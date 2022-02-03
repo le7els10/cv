@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/global.css";
-import myFace from "./assets/face.jpg";
+import myFace from "./assets/face.jpeg";
 import Block from "./components/Block";
 import {
   profileText,
