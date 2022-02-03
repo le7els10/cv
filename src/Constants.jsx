@@ -1,17 +1,18 @@
-const workedMonths = "2 años";
-const workedMonthsEn = "2 years";
+const workedMonths = "3 años";
+const workedMonthsEn = "3 years";
 
 //PROFILE TEXT - TEXTO DE PERFIL
-const profileText = `Soy ingeniero de sistemas con experiencia en desarrollo web (Front-end) con conocimientos sólidos en Html5, css3, Sass, javascript, jquery, 
-manejo y estructura de base de datos en mysql, manejo de versiones en Git. Experiencia en Php, Bootstrap 4, Semantic UI, Materialize
- y conocimiento avanzado en React js y react native. Tengo ${workedMonths} ejerciendo como desarrollador Front-end. 
- He estado al frente de varios proyectos variando entre landing pages y plataformas de administración. Soy una persona con buena capacidad lógica y aprendizaje rápido,
-  tengo buena integración con el equipo de trabajo con muchas ganas de seguir aprendiendo y crecer como profesional.`;
+const profileText = `Soy desarrollador front-end con ${workedMonths} en el campo, Tengo conocimientos sólidos en 
+Html5, Css3, Sass, Bootstrap4, javascript, jquery y react. Tengo conocimientos básicos en Angular, React native, manejo de base de datos en Mysql y 
+manejo de versiones en Git. Tengo buen entendimiento y abstraccion de los requerimientos que se me presentan, además a lo largo de mi experiencia he 
+desarrollado landing pages, dashboards administrativos, he trabajado en proyectos para reconocidos bancos y grandes empresas de telecomunicaciones. Soy una persona 
+que se integra y tiene buena sincronía con el equipo con muchas ganas de seguir creciendo como desarrollador front.`;
 
-const profileTextEn = `I'm front-end a developer with solid knowledgement in Html5, css3, Sass, javascript, jquery management and database structure in mysql, version management in Git. I have good experience in Php, Bootstrap 4, Semantic UI, Materialize
-and advanced knowledge in React js and react native. I have ${workedMonthsEn} ​​working as a Front-end developer.
-I have been in charge of several projects varying between landing pages and administration platforms. I'm a person with good logical ability and quick learning,
- I have good integration with the work team with a lot of desire to continue learning and grow as a professional.`;
+const profileTextEn = `I'm a front-end developer with ${workedMonthsEn} ​​of experience, I have solid knowledge in
+Html5, Css3, Sass, Bootstrap4, javascript, jquery and react. I have basic knowledge in Angular, React native, database management in Mysql and
+Version management in Git. I have a good understanding and abstraction of the requirements that are assigned to me, in addition throughout my experience I have
+developed landing pages, administrative dashboards, I have worked on projects for renowned banks and large telecommunications companies. I am a person
+who integrates and has good synchrony with the team with a lot of desire to continue growing as a front-end developer`;
 
 //JOB EXPERIENCE - EXPERIENCIA LABORAL
 const jobExperienceTitle = `Experiencia laboral (${workedMonths})`;
@@ -23,7 +24,11 @@ const jobExperienceData = [
   },
   {
     title: "Analista de desarrollo en Red5g, Barranquilla",
-    description: "octubre 2020 - actualmente",
+    description: "octubre 2020 - agosto 2021",
+  },
+  {
+    title: "Software Engineer II, Barranquilla",
+    description: "agosto 2021 - enero 2022",
   },
 ];
 
@@ -34,7 +39,11 @@ const jobExperienceDataEn = [
   },
   {
     title: "Development analyst in Red5g, Barranquilla",
-    description: "October 2020 - Now",
+    description: "October 2020 - August 2021",
+  },
+  {
+    title: "Software Engineer II, Barranquilla",
+    description: "August 2021 - January 2022",
   },
 ];
 
@@ -170,6 +179,10 @@ const personalDataEn = [
 //Habilidades
 const habilitiesData = [
   {
+    title: "Angular",
+    value: 30,
+  },
+  {
     title: "Css",
     value: 80,
   },
@@ -179,7 +192,7 @@ const habilitiesData = [
   },
   {
     title: "Javascript",
-    value: 85,
+    value: 80,
   },
   {
     title: "Jquery",
@@ -187,11 +200,7 @@ const habilitiesData = [
   },
   {
     title: "Mysql",
-    value: 80,
-  },
-  {
-    title: "Php",
-    value: 60,
+    value: 40,
   },
   {
     title: "React js",
@@ -199,7 +208,7 @@ const habilitiesData = [
   },
   {
     title: "React native",
-    value: 70,
+    value: 40,
   },
   {
     title: "Sass",
