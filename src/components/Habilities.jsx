@@ -7,8 +7,8 @@ const Habilities = ({ title }) => {
     <div className="block-container">
       <h2>{title}</h2>
       <div className="habilities-container">
-        {habilitiesData.map((element) => (
-          <Progress title={element.title} value={element.value} />
+        {habilitiesData.map(({ title, value }, index) => (
+          <Progress title={title} value={value} key={index} />
         ))}
       </div>
     </div>

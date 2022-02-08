@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./css/global.css";
 import myFace from "./assets/face.jpeg";
 import Block from "./components/Block";
@@ -21,7 +21,6 @@ import {
 import Habilities from "./components/Habilities";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage, faSave } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 function App() {
   const print = () => {

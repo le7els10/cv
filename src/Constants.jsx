@@ -3,7 +3,7 @@ const workedMonthsEn = "3 years";
 
 //PROFILE TEXT - TEXTO DE PERFIL
 const profileText = `Soy desarrollador front-end con ${workedMonths} en el campo, Tengo conocimientos sólidos en 
-Html5, Css3, Sass, Bootstrap4, javascript, jquery y react. Tengo conocimientos básicos en Angular, React native, manejo de base de datos en Mysql y 
+Html5, Css3, Sass, Bootstrap4, javascript, jquery y react. Tengo conocimientos básicos en Angular,Php, React native, manejo de base de datos en Mysql y 
 manejo de versiones en Git. Tengo buen entendimiento y abstraccion de los requerimientos que se me presentan, además a lo largo de mi experiencia he 
 desarrollado landing pages, dashboards administrativos, he trabajado en proyectos para reconocidos bancos y grandes empresas de telecomunicaciones. Soy una persona 
 que se integra y tiene buena sincronía con el equipo con muchas ganas de seguir creciendo como desarrollador front.`;
@@ -27,7 +27,7 @@ const jobExperienceData = [
     description: "octubre 2020 - agosto 2021",
   },
   {
-    title: "Software Engineer II, Barranquilla",
+    title: "Software Engineer II en Indra, Barranquilla",
     description: "agosto 2021 - enero 2022",
   },
 ];
@@ -42,7 +42,7 @@ const jobExperienceDataEn = [
     description: "October 2020 - August 2021",
   },
   {
-    title: "Software Engineer II, Barranquilla",
+    title: "Software Engineer II in Indra, Barranquilla",
     description: "August 2021 - January 2022",
   },
 ];
@@ -100,7 +100,11 @@ const cursosData = [
   },
   {
     title: "React native - Udemy",
-    description: "Mayo 2021",
+    description: "mayo 2021",
+  },
+  {
+    title: "Angular - Udemy",
+    description: "agosto 2021",
   },
 ];
 
@@ -116,6 +120,10 @@ const cursosDataEn = [
   {
     title: "React native - Udemy",
     description: "May 2021",
+  },
+  {
+    title: "Angular - Udemy",
+    description: "August 2021",
   },
 ];
 
@@ -201,6 +209,10 @@ const habilitiesData = [
   {
     title: "Mysql",
     value: 40,
+  },
+  {
+    title: "Php",
+    value: 50,
   },
   {
     title: "React js",

@@ -1,7 +1,6 @@
 import React from "react";
 
 const Progress = ({ title, value }) => {
-  let width = `width: ${value}`;
   return (
     <div className="progress-container">
       <h4>{title}</h4>
