@@ -91,39 +91,47 @@ const referenceDataEn = [
 //CURSOS
 const cursosData = [
   {
-    title: "Certificado de Inglés avanzado C1, Cesfa",
-    description: "enero 2012 - diciembre 2014",
+    title: "EF SET English Certificate 72/100 (C2 Proficient)",
+    description: "febrero 2022",
   },
   {
-    title: "React js - Udemy",
-    description: "julio 2020",
+    title: "Angular - Udemy",
+    description: "agosto 2021",
   },
   {
     title: "React native - Udemy",
     description: "mayo 2021",
   },
   {
-    title: "Angular - Udemy",
-    description: "agosto 2021",
+    title: "React js - Udemy",
+    description: "julio 2020",
+  },
+  {
+    title: "Certificado de Inglés avanzado C1, Cesfa",
+    description: "diciembre 2014",
   },
 ];
 
 const cursosDataEn = [
   {
-    title: "Advanced English Certificate C1, Cesfa",
-    description: "January 2012 - December 2014",
+    title: "EF SET English Certificate 72/100 (C2 Proficient)",
+    description: "February 2022",
   },
   {
-    title: "React js - Udemy",
-    description: "July 2020",
+    title: "Angular - Udemy",
+    description: "August 2021",
   },
   {
     title: "React native - Udemy",
     description: "May 2021",
   },
   {
-    title: "Angular - Udemy",
-    description: "August 2021",
+    title: "React js - Udemy",
+    description: "July 2020",
+  },
+  {
+    title: "Advanced English Certificate C1, Cesfa",
+    description: "December 2014",
   },
 ];
 
