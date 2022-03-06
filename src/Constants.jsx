@@ -30,6 +30,10 @@ const jobExperienceData = [
     title: "Software Engineer II en Indra, Barranquilla",
     description: "agosto 2021 - enero 2022",
   },
+  {
+    title: "Front end developer en Bizagi, Bogotá",
+    description: "marzo 2022 - actualmente",
+  },
 ];
 
 const jobExperienceDataEn = [
@@ -44,6 +48,10 @@ const jobExperienceDataEn = [
   {
     title: "Software Engineer II in Indra, Barranquilla",
     description: "August 2021 - January 2022",
+  },
+  {
+    title: "Front end developer in Bizagi, Bogotá",
+    description: "March 2022 - Now",
   },
 ];
 
