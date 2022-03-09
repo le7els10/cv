@@ -19,39 +19,39 @@ const jobExperienceTitle = `Experiencia laboral (${workedMonths})`;
 const jobExperienceTitleEn = `Work experience (${workedMonthsEn})`;
 const jobExperienceData = [
   {
-    title: "Desarrollador web en TejidoDigital, Barranquilla",
-    description: "marzo 2019 - octubre 2020",
-  },
-  {
-    title: "Analista de desarrollo en Red5g, Barranquilla",
-    description: "octubre 2020 - agosto 2021",
+    title: "Front end developer en Bizagi, Bogotá",
+    description: "marzo 2022 - actualmente",
   },
   {
     title: "Software Engineer II en Indra, Barranquilla",
     description: "agosto 2021 - enero 2022",
   },
   {
-    title: "Front end developer en Bizagi, Bogotá",
-    description: "marzo 2022 - actualmente",
+    title: "Analista de desarrollo en Red5g, Barranquilla",
+    description: "octubre 2020 - agosto 2021",
+  },
+  {
+    title: "Desarrollador web en TejidoDigital, Barranquilla",
+    description: "marzo 2019 - octubre 2020",
   },
 ];
 
 const jobExperienceDataEn = [
   {
-    title: "Web developer in TejidoDigital, Barranquilla",
-    description: "March 2019 - October 2020",
-  },
-  {
-    title: "Development analyst in Red5g, Barranquilla",
-    description: "October 2020 - August 2021",
+    title: "Front end developer in Bizagi, Bogotá",
+    description: "March 2022 - Now",
   },
   {
     title: "Software Engineer II in Indra, Barranquilla",
     description: "August 2021 - January 2022",
   },
   {
-    title: "Front end developer in Bizagi, Bogotá",
-    description: "March 2022 - Now",
+    title: "Development analyst in Red5g, Barranquilla",
+    description: "October 2020 - August 2021",
+  },
+  {
+    title: "Web developer in TejidoDigital, Barranquilla",
+    description: "March 2019 - October 2020",
   },
 ];
 

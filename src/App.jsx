@@ -54,13 +54,13 @@ function App() {
         />
         <Habilities title={Spanish ? "Competencias" : "Abilities"} />
         <Block
-          title={Spanish ? jobExperienceTitle : jobExperienceTitleEn}
-          data={Spanish ? jobExperienceData : jobExperienceDataEn}
-        />
-        <Block
           title={Spanish ? "Educación" : "Education"}
           data={Spanish ? educationData : educationDataEn}
-          break={true}
+        />
+        <Block
+          title={Spanish ? jobExperienceTitle : jobExperienceTitleEn}
+          data={Spanish ? jobExperienceData : jobExperienceDataEn}
+          break
         />
         <Block
           title={Spanish ? "Referencias personales" : "Personal references"}
@@ -73,6 +73,7 @@ function App() {
         <Block
           title={Spanish ? "Datos personales" : "Personal information"}
           data={Spanish ? personalData : personalDataEn}
+          break
         />
       </section>
     </div>

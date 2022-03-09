@@ -4,19 +4,27 @@ const Spill = ({ description, type = null, title }) => {
   const TypeShowing = () => {
     if (type === "email") {
       return (
-        <a target="_blank" href={`mailto:${description}`}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={`mailto:${description}`}
+        >
           {description}
         </a>
       );
     } else if (type === "phone") {
       return (
-        <a target="_blank" href={`tel:${description}`}>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={`tel:${description}`}
+        >
           {description}
         </a>
       );
     } else if (type === "url") {
       return (
-        <a target="_blank" href={`${description}`}>
+        <a target="_blank" rel="noopener noreferrer" href={`${description}`}>
           {description}
         </a>
       );
