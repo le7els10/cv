@@ -112,15 +112,28 @@ body {
 
       .progress-bar {
         margin: 5px 0;
-        height: 10px;
-        border-radius: 10px;
-        background-color: #bbba;
+        height: 20px;
         width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
 
-        .filled {
-          background-color: black;
-          height: 100%;
+        &--level{
+          position: relative;
           border-radius: 10px;
+          background-color: #bbba;
+          height: 5px;
+
+          &__filled{
+            background-color: black;
+          }
+
+          .text{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,50%);
+            font-size: 11px;
+          }
         }
       }
     }

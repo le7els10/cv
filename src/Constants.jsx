@@ -1,18 +1,16 @@
-const workedMonths = "3 años";
-const workedMonthsEn = "3 years";
+const workedMonths = "4 años";
+const workedMonthsEn = "4 years";
 
 //PROFILE TEXT - TEXTO DE PERFIL
-const profileText = `Soy desarrollador front-end con ${workedMonths} en el campo, Tengo conocimientos sólidos en 
-Html5, Css3, Sass, Bootstrap4, javascript, jquery y react. Tengo conocimientos básicos en Angular,Php, React native, manejo de base de datos en Mysql y 
-manejo de versiones en Git. Tengo buen entendimiento y abstraccion de los requerimientos que se me presentan, además a lo largo de mi experiencia he 
-desarrollado landing pages, dashboards administrativos, he trabajado en proyectos para reconocidos bancos y grandes empresas de telecomunicaciones. Soy una persona 
-que se integra y tiene buena sincronía con el equipo con muchas ganas de seguir creciendo como desarrollador front.`;
+const profileText = `Soy desarrollador front-end con ${workedMonths} en el campo, Tengo buen entendimiento y abstracción de los requerimientos 
+que se me presentan además a lo largo de mi experiencia he desarrollado landing pages, dashboards administrativos, he trabajado en 
+proyectos para reconocidos bancos y grandes empresas de telecomunicaciones. Debido a mi experiencia puedo adaptarme a cualquier 
+código y proyecto relacionados con javascript. Soy una persona que se integra y tiene buena sincronía con el equipo.`;
 
-const profileTextEn = `I'm a front-end developer with ${workedMonthsEn} ​​of experience, I have solid knowledge in
-Html5, Css3, Sass, Bootstrap4, javascript, jquery and react. I have basic knowledge in Angular, React native, database management in Mysql and
-Version management in Git. I have a good understanding and abstraction of the requirements that are assigned to me, in addition throughout my experience I have
-developed landing pages, administrative dashboards, I have worked on projects for renowned banks and large telecommunications companies. I am a person
-who integrates and has good synchrony with the team with a lot of desire to continue growing as a front-end developer`;
+const profileTextEn = `I'm a front-end developer with ${workedMonthsEn} ​​of experience, I have a good understanding and abstraction of the requirements
+that are also presented to me throughout my experience I have developed landing pages, administrative dashboards, I have worked in
+projects for renowned banks and large telecommunications companies. Due to my experience I can adapt to any
+javascript related code and project. I am a person who integrates and has good synchrony with the team.`;
 
 //JOB EXPERIENCE - EXPERIENCIA LABORAL
 const jobExperienceTitle = `Experiencia laboral (${workedMonths})`;
@@ -99,6 +97,14 @@ const referenceDataEn = [
 //CURSOS
 const cursosData = [
   {
+    title: "Microsoft Certified: Azure Fundamentals - Microsoft",
+    description: "noviembre 2022",
+  },
+  {
+    title: "Javascript unit testing - Udemy",
+    description: "agosto 2022",
+  },
+  {
     title: "EF SET English Certificate 72/100 (C2 Proficient)",
     description: "febrero 2022",
   },
@@ -121,6 +127,14 @@ const cursosData = [
 ];
 
 const cursosDataEn = [
+  {
+    title: "Microsoft Certified: Azure Fundamentals - Microsoft",
+    description: "November 2022",
+  },
+  {
+    title: "Javascript unit testing - Udemy",
+    description: "August 2022",
+  },
   {
     title: "EF SET English Certificate 72/100 (C2 Proficient)",
     description: "February 2022",
@@ -156,10 +170,6 @@ const personalData = [
     type: "phone",
   },
   {
-    title: "Dirección",
-    description: "cra 28b #79-74 apartamento 202",
-  },
-  {
     title: "Linkedin",
     description:
       "https://www.linkedin.com/in/juan-david-nuñez-aguilar-92b729212/",
@@ -184,10 +194,6 @@ const personalDataEn = [
     type: "phone",
   },
   {
-    title: "Address",
-    description: "cra 28b #79-74 apartamento 202",
-  },
-  {
     title: "Linkedin",
     description:
       "https://www.linkedin.com/in/juan-david-nuñez-aguilar-92b729212/",
@@ -204,43 +210,47 @@ const personalDataEn = [
 const habilitiesData = [
   {
     title: "Angular",
-    value: 30,
+    value: 1,
   },
   {
     title: "Css",
-    value: 80,
+    value: 3,
   },
   {
     title: "Html5",
-    value: 90,
+    value: 3,
   },
   {
     title: "Javascript",
-    value: 80,
+    value: 3,
+  },
+  {
+    title: "Jest",
+    value: 1,
   },
   {
     title: "Jquery",
-    value: 70,
+    value: 2,
   },
   {
     title: "Mysql",
-    value: 40,
-  },
-  {
-    title: "Php",
-    value: 50,
+    value: 1,
   },
   {
     title: "React js",
-    value: 75,
+    value: 2,
   },
   {
     title: "React native",
-    value: 40,
+    value: 1,
   },
   {
     title: "Sass",
-    value: 90,
+    value: 3,
+  },
+  {
+    title: "Typescript",
+    value: 2,
   },
 ];
 export {
