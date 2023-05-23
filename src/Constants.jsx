@@ -210,7 +210,7 @@ const personalDataEn = [
 const habilitiesData = [
   {
     title: "Angular",
-    value: 1,
+    value: 2,
   },
   {
     title: "Css",
@@ -230,7 +230,7 @@ const habilitiesData = [
   },
   {
     title: "Jquery",
-    value: 2,
+    value: 3,
   },
   {
     title: "Mysql",
@@ -238,7 +238,7 @@ const habilitiesData = [
   },
   {
     title: "React js",
-    value: 2,
+    value: 3,
   },
   {
     title: "React native",
@@ -250,7 +250,7 @@ const habilitiesData = [
   },
   {
     title: "Typescript",
-    value: 2,
+    value: 3,
   },
 ];
 export {
