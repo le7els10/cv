@@ -1,11 +1,11 @@
-const workedMonths = "4 años";
-const workedMonthsEn = "4 years";
+const workedMonths = "5 años";
+const workedMonthsEn = "5 years";
 
 //PROFILE TEXT - TEXTO DE PERFIL
 const profileText = `Soy desarrollador front-end con ${workedMonths} en el campo, Tengo buen entendimiento y abstracción de los requerimientos 
-que se me presentan además a lo largo de mi experiencia he desarrollado landing pages, dashboards administrativos, he trabajado en 
+que se me presentan, además a lo largo de mi experiencia he desarrollado landing pages, dashboards administrativos, he trabajado en 
 proyectos para reconocidos bancos y grandes empresas de telecomunicaciones. Debido a mi experiencia puedo adaptarme a cualquier 
-código y proyecto relacionados con javascript. Soy una persona que se integra y tiene buena sincronía con el equipo.`;
+código y proyecto relacionados con javascript. Soy una persona que se integra y tiene buena sincronía con el equipo de trabajo.`;
 
 const profileTextEn = `I'm a front-end developer with ${workedMonthsEn} ​​of experience, I have a good understanding and abstraction of the requirements
 that are also presented to me throughout my experience I have developed landing pages, administrative dashboards, I have worked in
@@ -209,11 +209,19 @@ const personalDataEn = [
 //Habilidades
 const habilitiesData = [
   {
-    title: "Angular",
-    value: 2,
+    title: "Javascript",
+    value: 3,
   },
   {
-    title: "Css",
+    title: "React js",
+    value: 3,
+  },
+  {
+    title: "Typescript",
+    value: 3,
+  },
+  {
+    title: "Jquery",
     value: 3,
   },
   {
@@ -221,36 +229,29 @@ const habilitiesData = [
     value: 3,
   },
   {
-    title: "Javascript",
+    title: "Css",
     value: 3,
-  },
-  {
-    title: "Jest",
-    value: 1,
-  },
-  {
-    title: "Jquery",
-    value: 3,
-  },
-  {
-    title: "Mysql",
-    value: 1,
-  },
-  {
-    title: "React js",
-    value: 3,
-  },
-  {
-    title: "React native",
-    value: 1,
   },
   {
     title: "Sass",
     value: 3,
   },
   {
-    title: "Typescript",
+    title: "Angular",
+    value: 2,
+  },
+  {
+    title: "Git",
     value: 3,
+  },
+  {
+    title: "Jest",
+    value: 1,
+  },
+
+  {
+    title: "Mysql",
+    value: 1,
   },
 ];
 export {
