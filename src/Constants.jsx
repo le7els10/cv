@@ -2,15 +2,12 @@ const workedMonths = "5 años";
 const workedMonthsEn = "5 years";
 
 //PROFILE TEXT - TEXTO DE PERFIL
-const profileText = `Soy desarrollador front-end con ${workedMonths} en el campo, Tengo buen entendimiento y abstracción de los requerimientos 
-que se me presentan, además a lo largo de mi experiencia he desarrollado landing pages, dashboards administrativos, he trabajado en 
-proyectos para reconocidos bancos y grandes empresas de telecomunicaciones. Debido a mi experiencia puedo adaptarme a cualquier 
-código y proyecto relacionados con javascript. Soy una persona que se integra y tiene buena sincronía con el equipo de trabajo.`;
+const profileText = `Como desarrollador front-end con una trayectoria de ${workedMonths} en la industria, cuento con un sólido entendimiento y habilidad para abstraer los requerimientos que se presentan en cada proyecto. 
+A lo largo de mi carrera, he concebido y desarrollado landing pages impactantes y eficaces dashboards administrativos. Mi historial incluye colaboraciones en proyectos de envergadura para distinguidas instituciones bancarias y empresas líderes en el sector de las telecomunicaciones.
 
-const profileTextEn = `I'm a front-end developer with ${workedMonthsEn} ​​of experience, I have a good understanding and abstraction of the requirements
-that are also presented to me throughout my experience I have developed landing pages, administrative dashboards, I have worked in
-projects for renowned banks and large telecommunications companies. Due to my experience I can adapt to any
-javascript related code and project. I am a person who integrates and has good synchrony with the team.`;
+Mi experiencia me ha capacitado para adaptarme con facilidad a una amplia variedad de códigos y proyectos relacionados con JavaScript, lo que me permite aportar soluciones efectivas en distintos contextos. Mi habilidad para integrarme con éxito en equipos de trabajo y mantener una sincronía armoniosa contribuye a un ambiente de colaboración productivo y eficiente.`;
+
+const profileTextEn = `As a front-end developer with ${workedMonthsEn} of experience in the industry, I have a solid understanding and ability to abstract the requirements that arise in each project. Throughout my career, I have conceived and developed impactful landing pages and effective administrative dashboards. My background includes collaborations on large projects for distinguished banking institutions and leading companies in the telecommunications sector. My experience has enabled me to easily adapt to a wide variety of codes and projects related to JavaScript, which allows me to provide effective solutions in different contexts. My ability to successfully integrate into work teams and maintain harmonious synchronicity contributes to a productive and efficient collaborative environment.`;
 
 //JOB EXPERIENCE - EXPERIENCIA LABORAL
 const jobExperienceTitle = `Experiencia laboral (${workedMonths})`;
